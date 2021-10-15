@@ -1,12 +1,28 @@
+body {
+  background-color: #55423d;
+  color: #fff3ec;
+}
+
 #contents {
   background-color: #55423d;
   color: #fff3ec;
+}
+
+h1 {
+  color: #fffffe;
 }
 
 h2 {
   color: #fffffe;
 }
 
+h3 {
+  color: #fffffe;
+}
+
+h4 {
+  color: #fffffe;
+}
 
 #fst {
   color: green;
