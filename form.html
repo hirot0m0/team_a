@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="ja" dir="ltr">
 <head>
-  <meta charset="UTF-8"/>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="style.css" />
   <title>トークショー</title>
   <script type="text/javascript">
      function check() {
@@ -19,7 +20,6 @@
        }
    }
    </script>
-   <link href="./css/style.css" rel="stylesheet">
   </head>
 
   <body>
@@ -40,22 +40,32 @@
     <h2>概要</h2>
       <p>
         宮沢賢治の研究家A氏をお招きし、トークショーを開催します。<br>
+        奮ってご参加ください。
       </p>
+
+      <h2>日時</h2>
+      <p>
+        10月30日<br>
+        &nbsp;10:00~12:00<br>
+        &nbsp;13:00~15:00<br>
+      </p>
+
 
     <h2>お申込み</h2>
-    <form class="" action="index.html" method="post"　name="form">
+    <form name="form" action="../../sample/sample.cgi" method="post" onsubmit="return check()">
+
       <p>
-        ※のある項目は入力必須です。
+        <font color="red">※</font>のある項目は入力必須です。
       </p>
 
       <p>
-      1. 氏名 ※<br>
+      1. 氏名 <font color="red">※</font><br>
       &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name" value="">
       </p>
 
       <p>
-      2. メールアドレス ※<br>
-      &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="address" value="">
+      2. メールアドレス <font color="red">※</font><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="address" value="" size="40">
       </p>
 
       <p>
@@ -72,7 +82,7 @@
       </p>
 
       <p>
-      3. 参加希望時間 ※<br>
+      3. 参加希望時間 <font color="red">※</font><br>
        &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="time" value="1">10:00~12:00
        <input type="radio" name="schedule" value="2">13:00~15:00
       </p>
@@ -88,7 +98,7 @@
       </p>
 
       <p>
-      <input type="button" name="send" value="送信">
+      <input type="submit" value="送信">
       </p>
 
     </form>
