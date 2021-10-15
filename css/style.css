@@ -15,21 +15,14 @@ body {
 h1 {
   color: #fffffe;
 }
-
 h2 {
   color: #fffffe;
 }
-
 h3 {
   color: #fffffe;
 }
-
 h4 {
   color: #fffffe;
-}
-
-#fst {
-  color: green;
 }
 
 #gnav {
@@ -71,4 +64,13 @@ h4 {
   display: block;
   text-decoration: none;
   color: #271c19;
+}
+
+.accordion-button {
+    color: #271c19;
+    background-color: #fffffe;
+}
+.accordion-button:not(.collapsed) {
+    color: #271c19;
+    background-color: #ffc0ad;
 }
